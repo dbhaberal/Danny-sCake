@@ -1,0 +1,45 @@
+body {
+    background-color: #F7F3E9;
+}
+
+.text-top {
+    margin-top: 8%;
+}  
+
+.navbar {
+    background-color: #ffdfdf;
+}
+
+.menubar {
+    width: 100%;
+}
+.jumbotron{
+    width: 100%;
+    margin: 0;
+}
+.top-img {
+    background-image: url("img/cake1.png");
+    background-position: top;
+}
+
+.more-btn {
+    background-color: #CE1F6A;
+}
+
+@media only screen and (max-width: 995px) {
+
+    .text-top {
+        font-size: smaller;
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    .top-img {
+        background-image: url("img/cake1.png");
+        background-position: top;
+        height: 300px;
+    }
+
+  }
