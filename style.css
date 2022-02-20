@@ -26,6 +26,44 @@ body {
     background-color: #CE1F6A;
 }
 
+
+.img-thumbnail {
+    width: 320px;
+    height: 320px;
+    padding: 3px;
+    margin: 0px;
+    object-fit: cover;
+}
+
+footer {
+    height: 200px;
+    background-color: #ffdfdf;
+    text-align: center;
+}
+
+footer p {
+    color: rgb(209, 115, 131);
+}
+
+footer .copyr {
+    color: #919191;
+}
+
+footer .copyr a{
+    text-decoration: none;
+    color: #fdad2a;
+}
+
+footer .copyr a:hover{
+    text-decoration: none;
+    color: #da3e0f;
+}
+
+footer .btn {
+    margin-left: 15px;
+}
+
+
 @media only screen and (max-width: 995px) {
 
     .text-top {
@@ -47,6 +85,17 @@ body {
         margin: 0;
         display: flex;
         flex-direction: column-reverse;
+    }
+
+
+    footer {
+    height: 150px;
+    }
+
+    .img-thumbnail {
+        width: 220px;
+        height: 220px;
+
     }
 
   }
